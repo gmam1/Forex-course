@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Performance Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+
+  <div class="app">
+
+    <!-- ==================== LIST PAGE ==================== -->
+    <section id="listPage" class="page active">
+      <header class="top-header">
+        <div class="brand">
+          <div class="brand-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div>
+            <h1>Performance Portal</h1>
+            <p id="courseStatus">Loading course progress...</p>
+          </div>
+        </div>
+        <button class="icon-btn" id="themeBtn" title="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+      </header>
+
+      <div class="content-wrap">
+        <div class="glass-card list-card animate-in">
+          <div class="card-title">
+            <h2><i class="fas fa-user-graduate"></i> Select Your Name</h2>
+            <span class="badge" id="studentCount">0 Students</span>
+          </div>
+
+          <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Type your name..." autocomplete="off" />
+          </div>
+
+          <div class="student-list" id="studentList">
+            <!-- filled by JS -->
+          </div>
+        </div>
+
+        <div class="info-strip animate-in delay-1">
+          <div class="info-item">
+            <i class="fas fa-calendar-check"></i>
+            <span>Attendance based on classes held so far</span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-sync-alt"></i>
+            <span>Updated regularly by instructor</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DETAIL PAGE ==================== -->
+    <section id="detailPage" class="page">
+      <header class="top-header">
+        <button class="back-btn" id="backBtn">
+          <i class="fas fa-arrow-left"></i>
+          <span>Back</span>
+        </button>
+        <button class="icon-btn" id="themeBtn2" title="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+      </header>
+
+      <div class="content-wrap detail-wrap">
+        <!-- Profile -->
+        <div class="glass-card profile-card animate-in">
+          <div class="avatar-ring">
+            <div class="avatar" id="avatar">AK</div>
+          </div>
+          <h1 id="studentName">Student Name</h1>
+          <p class="sid" id="studentId">STU-000</p>
+
+          <div class="score-circle">
+            <svg viewBox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+              <path class="circle" id="scoreCircle" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+              <text x="18" y="20.5" class="percentage-text" id="percentageText">0%</text>
+            </svg>
+          </div>
+
+          <div class="total-row">
+            <span class="total-label">Current Total</span>
+            <span class="total-value" id="totalValue">0 / 0</span>
+          </div>
+          <div class="status-badge" id="statusBadge">—</div>
+        </div>
+
+        <!-- Marks Cards -->
+        <div class="marks-section">
+          <div class="mark-card animate-in delay-1">
+            <div class="mark-top">
+              <div class="mark-icon att"><i class="fas fa-calendar-check"></i></div>
+              <div>
+                <h3>Attendance</h3>
+                <p class="sub" id="attSub">0 of 0 classes</p>
+              </div>
+            </div>
+            <div class="mark-bottom">
+              <div class="mark-score"><span id="attMarks">0</span><small> marks</small></div>
+              <div class="mark-pct" id="attPct">0%</div>
+            </div>
+            <div class="bar"><div class="bar-fill att-fill" id="attBar"></div></div>
+          </div>
+
+          <div class="mark-card animate-in delay-2">
+            <div class="mark-top">
+              <div class="mark-icon asg"><i class="fas fa-book-open"></i></div>
+              <div>
+                <h3>Assignments</h3>
+                <p class="sub" id="asgSub">0 of 0 submitted</p>
+              </div>
+            </div>
+            <div class="mark-bottom">
+              <div class="mark-score"><span id="asgMarks">0</span><small> marks</small></div>
+              <div class="mark-pct" id="asgPct">0%</div>
+            </div>
+            <div class="bar"><div class="bar-fill asg-fill" id="asgBar"></div></div>
+          </div>
+
+          <div class="mark-card animate-in delay-3">
+            <div class="mark-top">
+              <div class="mark-icon quiz"><i class="fas fa-pencil-alt"></i></div>
+              <div>
+                <h3>Quizzes</h3>
+                <p class="sub" id="quizSub">0 of 0 marks</p>
+              </div>
+            </div>
+            <div class="mark-bottom">
+              <div class="mark-score"><span id="quizMarks">0</span><small> marks</small></div>
+              <div class="mark-pct" id="quizPct">0%</div>
+            </div>
+            <div class="bar"><div class="bar-fill quiz-fill" id="quizBar"></div></div>
+          </div>
+
+          <div class="mark-card animate-in delay-4">
+            <div class="mark-top">
+              <div class="mark-icon final"><i class="fas fa-file-signature"></i></div>
+              <div>
+                <h3>Final Exam</h3>
+                <p class="sub" id="finalSub">Not held yet</p>
+              </div>
+            </div>
+            <div class="mark-bottom">
+              <div class="mark-score"><span id="finalMarks">0</span><small> marks</small></div>
+              <div class="mark-pct" id="finalPct">—</div>
+            </div>
+            <div class="bar"><div class="bar-fill final-fill" id="finalBar"></div></div>
+          </div>
+        </div>
+
+        <!-- Overall -->
+        <div class="glass-card overall-card animate-in delay-5">
+          <h3>Overall Progress (Current)</h3>
+          <div class="overall-bar">
+            <div class="overall-fill" id="overallBar"></div>
+          </div>
+          <p id="overallText">0 marks obtained out of current possible</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
