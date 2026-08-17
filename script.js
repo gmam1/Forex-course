@@ -90,7 +90,7 @@ const students = [
     id: 8,
     name: "Umair Hussain",
     studentId: "260801007",
-    attendance: 1,
+    attendance: 0,
     assignments: 0,
     quizMarks: 0,
     finalExam: 0
