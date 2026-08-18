@@ -72,7 +72,7 @@ const students = [
     id: 6,
     name: "Sehar",
     studentId: "260801005",
-    attendance: 1,
+    attendance: 2,
     assignments: 0,
     quizMarks: 0,
     finalExam: 0
@@ -81,7 +81,7 @@ const students = [
     id: 7,
     name: "Shahzaib Ali",
     studentId: "260801006",
-    attendance: 1,
+    attendance: 2,
     assignments: 0,
     quizMarks: 0,
     finalExam: 0
