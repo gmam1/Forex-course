@@ -94,7 +94,18 @@ const students = [
     assignments: 0,
     quizMarks: 0,
     finalExam: 0
+  },
+
+     {
+    id: 9,
+    name: "Hamza Yasin",
+    studentId: "260801008",
+    attendance: 0,
+    assignments: 0,
+    quizMarks: 0,
+    finalExam: 0
   }
+
 ];
 
 /* ================================================================
