@@ -73,7 +73,7 @@ const students = [
     name: "Sehar",
     studentId: "260801005",
     attendance: 2,
-    assignments: 0,
+    assignments: 0.8,
     quizMarks: 0,
     finalExam: 0
   },
