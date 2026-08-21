@@ -6,7 +6,7 @@
 */
 
 const courseProgress = {
-  classesHeld: 4,            // How many classes have been held so far (max final = 40)
+  classesHeld: 5,            // How many classes have been held so far (max final = 40)
   assignmentsGiven: 3,       // How many assignments given so far (max final = 40)
   quizzesMaxMarks: 0,        // Current total possible quiz marks (e.g. 1 quiz = 5, 2 quizzes = 10...)
   finalExamHeld: false,      // true when final exam is conducted
@@ -36,7 +36,7 @@ const students = [
     id: 2,
     name: "Gulfam Nasir",
     studentId: "260801001",
-    attendance: 1,
+    attendance: 2,
     assignments: 0,
     quizMarks: 0,
     finalExam: 0
@@ -72,7 +72,7 @@ const students = [
     id: 6,
     name: "Sehar",
     studentId: "260801005",
-    attendance: 3,
+    attendance: 4,
     assignments: 1.7,
     quizMarks: 0,
     finalExam: 0
