@@ -6,7 +6,7 @@
 */
 
 const courseProgress = {
-  classesHeld: 5,            // How many classes have been held so far (max final = 40)
+  classesHeld: 6,            // How many classes have been held so far (max final = 40)
   assignmentsGiven: 5,       // How many assignments given so far (max final = 40)
   quizzesMaxMarks: 5,        // Current total possible quiz marks (e.g. 1 quiz = 5, 2 quizzes = 10...)
   finalExamHeld: false,      // true when final exam is conducted
@@ -45,15 +45,6 @@ const students = [
     id: 3,
     name: "Kanoot",
     studentId: "260801002",
-    attendance: 0,
-    assignments: 0,
-    quizMarks: 0,
-    finalExam: 0
-  },
-  {
-    id: 4,
-    name: "missing",
-    studentId: "260801003",
     attendance: 0,
     assignments: 0,
     quizMarks: 0,
