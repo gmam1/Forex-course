@@ -7,7 +7,7 @@
 
 const courseProgress = {
   classesHeld: 8,            // How many classes have been held so far (max final = 40)
-  assignmentsGiven: 5,       // How many assignments given so far (max final = 40)
+  assignmentsGiven: 6,       // How many assignments given so far (max final = 40)
   quizzesMaxMarks: 5,        // Current total possible quiz marks (e.g. 1 quiz = 5, 2 quizzes = 10...)
   finalExamHeld: false,      // true when final exam is conducted
   finalExamMax: 20           // Final exam total marks (usually 20)
