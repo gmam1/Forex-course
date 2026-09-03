@@ -50,16 +50,6 @@ const students = [
     quizMarks: 0,
     finalExam: 0
   },
-  {
-    id: 8,
-    name: "Umair Hussain",
-    studentId: "260801007",
-    attendance: 1,
-    assignments: 0,
-    quizMarks: 0,
-    finalExam: 0
-  },
-
      {
     id: 9,
     name: "Hamza Yasin",
