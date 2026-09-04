@@ -24,15 +24,6 @@ const courseProgress = {
 
 const students = [
   {
-    id: 2,
-    name: "Gulfam Nasir",
-    studentId: "260801001",
-    attendance: 2,
-    assignments: 0,
-    quizMarks: 0,
-    finalExam: 0
-  },
-  {
     id: 6,
     name: "Sehar",
     studentId: "260801005",
