@@ -31,15 +31,6 @@ const students = [
     assignments: 1.6,
     quizMarks: 3.25,
     finalExam: 0
-  },
-  {
-    id: 7,
-    name: "Shahzaib Ali",
-    studentId: "260801006",
-    attendance: 3,
-    assignments: 0,
-    quizMarks: 0,
-    finalExam: 0
   }
 ];
 
