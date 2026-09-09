@@ -667,13 +667,3 @@ body {
   .marks-section {
     grid-template-columns: 1fr;
   }
-
-  .top-header {
-    padding: 1rem 1.1rem;
-  }
-
-  .brand h1 {
-    font-size: 1.05rem;
-  }
-
-  .content-wrap {
