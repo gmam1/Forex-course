@@ -647,14 +647,3 @@ body {
   overflow: hidden;
   margin-bottom: 0.7rem;
 }
-
-.overall-fill {
-  height: 100%;
-  border-radius: 8px;
-  width: 0%;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #10b981);
-  transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.overall-card p {
-  font-size: 0.85rem;
