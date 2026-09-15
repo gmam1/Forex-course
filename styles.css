@@ -627,14 +627,3 @@ body {
 .asg-fill { background: linear-gradient(90deg, #2563eb, #3b82f6); }
 .quiz-fill { background: linear-gradient(90deg, #7c3aed, #8b5cf6); }
 .final-fill { background: linear-gradient(90deg, #d97706, #f59e0b); }
-
-/* Overall */
-.overall-card {
-  padding: 1.35rem 1.4rem;
-}
-
-.overall-card h3 {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  margin-bottom: 0.9rem;
