@@ -638,12 +638,3 @@ body {
   font-weight: 600;
   color: var(--text-muted);
   margin-bottom: 0.9rem;
-}
-
-.overall-bar {
-  height: 12px;
-  background: color-mix(in srgb, var(--text-muted) 18%, transparent);
-  border-radius: 8px;
-  overflow: hidden;
-  margin-bottom: 0.7rem;
-}
