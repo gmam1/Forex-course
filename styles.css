@@ -608,13 +608,3 @@ body {
   font-weight: 600;
   color: var(--primary);
 }
-
-.bar {
-  height: 6px;
-  background: color-mix(in srgb, var(--text-muted) 20%, transparent);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.bar-fill {
-  height: 100%;
