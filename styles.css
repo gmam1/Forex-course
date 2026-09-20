@@ -588,13 +588,3 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 0.55rem;
-}
-
-.mark-score {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.mark-score small {
-  font-size: 0.75rem;
