@@ -577,14 +577,3 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
 }
-
-.mark-top .sub {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-top: 1px;
-}
-
-.mark-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
