@@ -567,13 +567,3 @@ body {
   font-size: 1rem;
   flex-shrink: 0;
 }
-
-.mark-icon.att { background: linear-gradient(135deg, #059669, #10b981); }
-.mark-icon.asg { background: linear-gradient(135deg, #2563eb, #3b82f6); }
-.mark-icon.quiz { background: linear-gradient(135deg, #7c3aed, #8b5cf6); }
-.mark-icon.final { background: linear-gradient(135deg, #d97706, #f59e0b); }
-
-.mark-top h3 {
-  font-size: 0.9rem;
-  font-weight: 600;
-}
