@@ -547,13 +547,3 @@ body {
 
 .mark-card:hover {
   transform: translateY(-3px);
-}
-
-.mark-top {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.9rem;
-}
-
-.mark-icon {
