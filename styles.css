@@ -537,13 +537,3 @@ body {
 
 .mark-card {
   background: var(--card);
-  backdrop-filter: blur(16px);
-  border: 1px solid var(--card-border);
-  border-radius: 16px;
-  padding: 1.15rem;
-  box-shadow: var(--shadow);
-  transition: transform 0.25s;
-}
-
-.mark-card:hover {
-  transform: translateY(-3px);
