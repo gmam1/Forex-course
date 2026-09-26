@@ -527,13 +527,3 @@ body {
 [data-theme="light"] .status-badge.good { background: #dbeafe; color: #1e40af; }
 [data-theme="light"] .status-badge.average { background: #fef3c7; color: #92400e; }
 [data-theme="light"] .status-badge.risk { background: #fee2e2; color: #991b1b; }
-
-/* Marks Section */
-.marks-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.mark-card {
-  background: var(--card);
