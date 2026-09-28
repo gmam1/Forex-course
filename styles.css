@@ -507,13 +507,3 @@ body {
 }
 
 .status-badge.excellent {
-  background: rgba(16, 185, 129, 0.18);
-  color: #34d399;
-}
-.status-badge.good {
-  background: rgba(59, 130, 246, 0.18);
-  color: #60a5fa;
-}
-.status-badge.average {
-  background: rgba(245, 158, 11, 0.18);
-  color: #fbbf24;
