@@ -517,13 +517,3 @@ body {
 .status-badge.average {
   background: rgba(245, 158, 11, 0.18);
   color: #fbbf24;
-}
-.status-badge.risk {
-  background: rgba(239, 68, 68, 0.18);
-  color: #f87171;
-}
-
-[data-theme="light"] .status-badge.excellent { background: #d1fae5; color: #065f46; }
-[data-theme="light"] .status-badge.good { background: #dbeafe; color: #1e40af; }
-[data-theme="light"] .status-badge.average { background: #fef3c7; color: #92400e; }
-[data-theme="light"] .status-badge.risk { background: #fee2e2; color: #991b1b; }
