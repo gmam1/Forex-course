@@ -487,13 +487,3 @@ body {
 }
 
 .total-label {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-}
-
-.total-value {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.status-badge {
