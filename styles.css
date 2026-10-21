@@ -297,23 +297,3 @@ body {
   outline: none;
   border-color: var(--primary);
   box-shadow: 0 0 0 3px var(--primary-glow);
-}
-
-.student-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
-  max-height: 52vh;
-  overflow-y: auto;
-  padding-right: 4px;
-}
-
-.student-list::-webkit-scrollbar {
-  width: 5px;
-}
-.student-list::-webkit-scrollbar-thumb {
-  background: var(--text-muted);
-  border-radius: 10px;
-}
-
-.student-item {
