@@ -287,13 +287,3 @@ body {
   border: 1px solid var(--card-border);
   border-radius: 12px;
   background: color-mix(in srgb, var(--bg) 60%, transparent);
-  color: var(--text);
-  font-size: 0.95rem;
-  font-family: inherit;
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.search-box input:focus {
-  outline: none;
-  border-color: var(--primary);
-  box-shadow: 0 0 0 3px var(--primary-glow);
