@@ -277,13 +277,3 @@ body {
   left: 14px;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
-
-.search-box input {
-  width: 100%;
-  padding: 0.85rem 1rem 0.85rem 2.6rem;
-  border: 1px solid var(--card-border);
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--bg) 60%, transparent);
